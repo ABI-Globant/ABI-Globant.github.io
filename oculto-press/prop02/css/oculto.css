@@ -1,0 +1,49 @@
+/*@import "pods_constants.less";*/
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/* From http://lesselements.com */
+body {
+  width: 100%;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-size: 0.9em;
+  color: #fafafa;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizelegibility;
+}
+
+.video-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
+.video-container video{
+  width: 100%;
+}
+.mask-container {
+text-align: center;
+width: 100%;
+}
+.mask-site {
+  margin: 70px 0;
+  position: relative;
+  width: 50%;
+  z-index: 2;
+}
+
+.social-icons {
+  bottom: 0px;  
+  margin: 0px 40px 20px;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+}
+
