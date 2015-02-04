@@ -33,7 +33,7 @@ text-align: center;
 width: 100%;
 }
 .mask-site {
-  margin: 70px 0;
+  margin: 7% 0 0 7%;
   position: relative;
   width: 50%;
   z-index: 2;
@@ -45,5 +45,17 @@ width: 100%;
   position: absolute;
   right: 0px;
   z-index: 2;
+}
+.img-bg {
+  background: url('../images/countdown-04.jpg') no-repeat;
+  background-size: 105%;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute; 
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
