@@ -33,7 +33,7 @@ text-align: center;
 width: 100%;
 }
 .mask-site {
-  margin: 7% 0 0 7%;
+  margin: 7% 0 0 14%;
   position: relative;
   width: 50%;
   z-index: 2;
@@ -48,7 +48,7 @@ width: 100%;
 }
 .img-bg {
   background: url('../images/countdown-04.jpg') no-repeat;
-  background-size: 105%;
+  background-size: 104%;
   display: block;
   height: 100%;
   left: 0;
@@ -57,5 +57,22 @@ width: 100%;
   top: 0;
   width: 100%;
   z-index: 1;
+}
+.smoke-container {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 1;
+}
+.img-smoke {
+  position: relative;
+  position: relative;
+  width: 106%;
+}
+.container {
+  overflow: hidden;
+  width: 100%;
 }
 
