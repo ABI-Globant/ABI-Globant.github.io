@@ -8,6 +8,8 @@ body {
   width: 100%;
 }
 .second-container img{
+  position: relative;
+  top: 5px;
   width:100%;
 }
 #video1 {
