@@ -1,0 +1,146 @@
+body {
+  background: #000;
+  margin:0;
+}
+.first-container {
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.second-container img{
+  position: relative;
+  top: 5px;
+  width:100%;
+}
+#video1 {
+  width: 100%;
+}
+#main-animate {
+  height: 100%;
+  position: relative;
+  top: 0%;
+  width: 100%; 
+}
+.video-container {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#animate1 {
+  background: url('../img/img-oculto1.png') no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  display: block;
+  height: 100vh; 
+  width: 100%;
+}
+.icon-sound {
+  position: fixed; 
+  right: 30px;
+  top: 30px;
+  z-index: 1;
+}
+.video-gradient {
+  background: rgba(0,0,0,0);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.69) 50%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,0.69)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.69) 50%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.69) 50%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.69) 50%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.69) 50%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  display: block; 
+  height:100px;
+  position: relative;
+  top: -102px;
+  width: 100%;
+}
+.social-container{
+  bottom: 0;
+  left: -5px;
+  position: absolute;
+  text-align: center;
+  width: 45px;
+  z-index: 4;
+}
+.logo-container{
+  top: 5px;
+  left: 60px;
+  position: absolute;
+  text-align: center;
+  width: 230px;	
+  z-index: 2;
+}
+.navbar-container {
+  background: #b8152d;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 45px;	
+  z-index: 2;
+}
+.description-container {
+  bottom: 90px;
+  left: 125px;
+  position: absolute;
+  text-align: center;
+  width: 45px;
+  z-index: 4;
+}
+.thumbs-container {
+  bottom: 77px;
+  right: 50px;
+  position: absolute;
+  text-align: center;
+  width: 412px;
+  z-index: 4;
+}
+.user-container {
+  right: 3px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 296px;
+  z-index: 4;
+}
+.news-container {
+  background: #fff;
+  bottom: -3px;
+  right: 0;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  z-index: 1;
+  height: 67px;
+}
+.news-container img {
+  padding: 13px 45px 0 0;
+}
+.video-gradient2 {
+  background: rgba(0,0,0,0.8);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.8)), color-stop(82%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+.wrapper {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
