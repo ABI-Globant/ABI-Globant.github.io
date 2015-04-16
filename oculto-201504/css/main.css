@@ -1,0 +1,58 @@
+body {
+    background-color: #000;
+    padding-top: 97px;
+}
+
+.header {
+    height: 121px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1500;
+}
+
+    .header--fixed {
+        position: fixed;
+    }
+
+
+.featured {
+    background-color: #000;
+    height: 585px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+    #video-container {
+        position: relative;
+        z-index: 900;
+    }
+
+    .featured .content {
+        background-image: url('../img/im-rotr.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        left: 0;
+        height: 585px;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+.main-content {
+    background-color: #000;
+    background-image: url('../img/rest.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 2732px;
+}
+
+
+img.no-resize {
+    max-width: none;
+}
