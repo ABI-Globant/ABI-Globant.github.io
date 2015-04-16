@@ -11,13 +11,13 @@
   <body>
 
     <header class="header">
-      <img class="no-resize" src="./img/header.png">
+      <img class="no-resize" src="img/header.png">
     </header><!-- /header -->
 
     <div class="featured">
 
       <div id="video-container">
-        <video autoplay loop class="fillWidth">
+        <video autoplay loop>
           <source src="videos/smoke_teal.mp4" type="video/mp4"/>
           Your browser does not support the video tag. We suggest you upgrade your browser.
         </video>
@@ -67,8 +67,8 @@
 
           // Run on resize too
           $(window).resize(adjSize);
-        }
-        else {
+
+        } else {
 
           // Wait until the video meta data has loaded
           $('#video-container video').on('loadedmetadata', function() {
